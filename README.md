@@ -1,5 +1,3 @@
-# Projetos-Python-ALTI
-Projetos Python desenvolvidos durante o aprendizado
 # Projetos Python ALTI 🐍
 
 Repositório com projetos Python desenvolvidos durante meu aprendizado.
