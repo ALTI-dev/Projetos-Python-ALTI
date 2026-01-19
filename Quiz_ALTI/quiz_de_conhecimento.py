@@ -1,0 +1,530 @@
+resposta_certa_fácil=resposta_errada_fácil=resposta_certa_médio=resposta_errada_médio=resposta_certa_difícil=resposta_errada_difícil=0
+print('=='*30)
+print(f'{'BEM-VINDO AO MUNDO DO CONHECIMENTO "QUIZ ALTI"':^60}')
+print('=='*30)
+    
+while True:
+    print('MENU PRINCIPAL:\n[1] Jogar Quiz\n[2] Sair')
+    escolha_no_menu=int(input('\nEscolha uma opção: '))
+    if escolha_no_menu == 1:        
+        nome=str(input('\n👉 Diga o seu nome: '))
+        print(f'\n Olá {nome}! Escolha a dificuldade:\n',
+        '[1] Fácil(10 pontos por acerto)\n',
+        '[2] Médio(20 pontos por acerto)\n',
+        '[3] Difícil(30 pontos por acerto)')
+        escolha_de_jogo=int(input('\nSua escolha: '))
+        
+        if escolha_de_jogo == 1:# Fácil ronda1
+            print('=='*30)
+            print(f'{'MODO FÁCIL - 10 PERGUNTAS':^30}')
+            print('=='*30,'\n')
+            print('PERGUNTA 1/10\nQual jogador tem 8 bolas de ouro?\n',
+            'a) C.Ronaldo\n',
+            'b) Neymar Jr\n',
+            'c) Messi\n',
+            'd) Lamine Yamal')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'c':
+                resposta_certa_fácil+=1
+                print(f'\n✅ CORRETO! +10 pontos\nPontuação atual: {resposta_certa_fácil*10} pontos.\n')
+            else:
+                resposta_errada_fácil+=1
+                print(f'\nErro! Sem pontuação\n')
+                
+            print('PERGUNTA 2/10\nQuem criou o "QUIZ ALTI?"\n'
+            'a) Nelson Mandela\n',
+            'b) Amílcar Cabral\n',
+            'c) Agostinho Neto\n',
+            'd) Aleluia Nhaga Imbali')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'd':
+                resposta_certa_fácil+=1
+                print(f'\n✅ CORRETO! +10 pontos\nPontuação atual: {resposta_certa_fácil*10} pontos.\n')
+            else:
+                resposta_errada_fácil+=1
+                print(f'\nErro! Sem pontuação\n')
+                
+            print('PERGUNTA 3/10\nQuanto é raiz cúbica de dois (∛2)?\n',
+            'a) 6\n',
+            'b) 8\n',
+            'c) 3+2\n',
+            'd) 5')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'b':
+                resposta_certa_fácil+=1
+                print(f'\n✅ CORRETO! +10 pontos\nPontuação atual: {resposta_certa_fácil*10} pontos.\n')
+            else:
+                resposta_errada_fácil+=1
+                print(f'\nErro! Sem pontuação\n')
+                
+            print('PERGUNTA 4/10\nQuem pintou a Monalisa?\n',
+            'a) Pitágoras\n',
+            'b) Leonardo da Vinci\n',
+            'c) Immanuel Kant\n',
+            'd) Aristóteles')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'b':
+                resposta_certa_fácil+=1
+                print(f'\n✅ CORRETO! +10 pontos\nPontuação atual: {resposta_certa_fácil*10} pontos.\n')
+            else:
+                resposta_errada_fácil+=1
+                print(f'\nErro! Sem pontuação\n')
+                
+            print('PERGUNTA 5/10\nQual é a capital de Portugal?\n',
+            'a) Madrid\n',
+            'b) Roma\n',
+            'c) Lisboa\n',
+            'd) Paris')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'c':
+                resposta_certa_fácil+=1
+                print(f'\n✅ CORRETO! +10 pontos\nPontuação atual: {resposta_certa_fácil*10} pontos.\n')
+            else:
+                resposta_errada_fácil+=1
+                print(f'\nErro! Sem pontuação\n')
+                
+            print('PERGUNTA 6/10\nQual é o maior planeta do sistema solar?\n',
+            'a) Júpiter\n',
+            'b) Saturno\n',
+            'c) Marte\n',
+            'd) Terra')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'a':
+                resposta_certa_fácil+=1
+                print(f'\n✅ CORRETO! +10 pontos\nPontuação atual: {resposta_certa_fácil*10} pontos.\n')
+            else:
+                resposta_errada_fácil+=1
+                print(f'\nErro! Sem pontuação\n')
+                
+            print('PERGUNTA 7/10\nQual dessas é um meio de transporte?\n',
+            'a) Banana\n',
+            'b) Carro\n',
+            'c) Sapato\n',
+            'd) Cadeira')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'b':
+                resposta_certa_fácil+=1
+                print(f'\n✅ CORRETO! +10 pontos\nPontuação atual: {resposta_certa_fácil*10} pontos.\n')
+            else:
+                resposta_errada_fácil+=1
+                print(f'\nErro! Sem pontuação\n')
+                
+            print('PERGUNTA 8/10\nQual é o idioma oficial da Guiné-Bissau?\n',
+            'a) Espanhol\n',
+            'b) Criolo da Guiné-Bissau\n',
+            'c) Francês\n',
+            'd) Português')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'd':
+                resposta_certa_fácil+=1
+                print(f'\n✅ CORRETO! +10 pontos\nPontuação atual: {resposta_certa_fácil*10} pontos.\n')
+            else:
+                resposta_errada_fácil+=1
+                print(f'\nErro! Sem pontuação\n')
+                
+            print('PERGUNTA 9/10\nQual é a cor do sol?\n',
+            'a) Branco\n',
+            'b) Amarelo\n',
+            'c) Preto\n',
+            'd) Vermelho')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'a':
+                resposta_certa_fácil+=1
+                print(f'\n✅ CORRETO! +10 pontos\nPontuação atual: {resposta_certa_fácil*10} pontos.\n')
+            else:
+                resposta_errada_fácil+=1
+                print(f'\nErro! Sem pontuação\n')
+                
+            print('PERGUNTA 10/10\nQual animal é conhecido como rei da selva?\n',
+            'a) Elefante\n',
+            'b) Tigre\n',
+            'c) Leão\n',
+            'd) Urso')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'c':
+                resposta_certa_fácil+=1
+                print(f'\n✅ CORRETO! +10 pontos\nPontuação atual: {resposta_certa_fácil*10} pontos.\n')
+            else:
+                resposta_errada_fácil+=1
+                print(f'\nErro! Sem pontuação\n')
+                print('...\n')
+            print('=='*30)
+            print(f'{'RESULTADO FINAL':^30}')
+            print('=='*30)
+            print(f'Nome: {nome}\n',
+            f'Acertos: {resposta_certa_fácil}/10\n',
+            f'Erros: {resposta_errada_fácil}/10\n',
+            f'Pontuação final: {resposta_certa_fácil*10}')
+            if resposta_certa_fácil*10==10:
+                print(f'Classificação:\033[93m★\033[0m Tentativa\n')
+            elif resposta_certa_fácil*10==20:
+                print(f'Classificação:\033[93m🌟\033[0m Ruim')
+            elif resposta_certa_fácil*10==30:
+                print(f'Classificação:\033[93m🌟★\033[0m Regular\n')
+            elif resposta_certa_fácil*10==40:
+                print(f'Classificação:\033[93m🌟🌟\033[0m Fraco\n')
+            elif resposta_certa_fácil*10==50:
+                print(f'Classificação:\033[93m🌟🌟★\033[0m Aceitável\n')
+            elif resposta_certa_fácil*10==60:
+                print(f'Classificação:\033[93m🌟🌟🌟\033[0m Bom\n')
+            elif resposta_certa_fácil*10==70:
+                print(f'Classificação:\033[93m🌟🌟🌟★\033[0m Muito Bom\n')
+            elif resposta_certa_fácil*10==80:
+                print(f'Classificação:\033[93m🌟🌟🌟🌟\033[0m Ótimo\n')
+            elif resposta_certa_fácil*10==90:
+                print(f'Classificação:\033[93m🌟🌟🌟🌟★\033[0m Quase Excelente\n')
+            elif resposta_certa_fácil*10==100:
+                print(f'Classificação:\033[93m🌟🌟🌟🌟🌟\033[0m Excelente\n')
+            else:
+                print('Classificação: Sem estrela 😋 Estude mais\n')
+
+        elif escolha_de_jogo==2:# Médio ronda1
+            print('=='*30)
+            print(f'{'MODO MÉDIO - 10 PERGUNTAS':^30}')
+            print('=='*30)
+            print('\nPERGUNTA 1/10\nQual é o elemento químico representado pelo símbolo "Na"?\n',
+            'a) Nitrogênio\n',
+            'b) Sódio\n',
+            'c) Nióbio\n',
+            'd) Neônio')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'b':
+                resposta_certa_médio+=1
+                print(f'\n✅ CORRETO! +20 pontos\nPontuação atual: {resposta_certa_médio*20} pontos.\n')
+            else:
+                resposta_errada_médio+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 2/10\nQuem escreveu a obra "Dom Casmurro"?\n',
+            'a) José de Alencar\n',
+            'b) Clarice Lispector\n',
+            'c) Machado de Assis\n',
+            'd) Graciliano Ramos')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'c':
+                resposta_certa_médio+=1
+                print(f'\n✅ CORRETO! +20 pontos\nPontuação atual: {resposta_certa_médio*20} pontos.\n')
+            else:
+                resposta_errada_médio+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 3/10\nQual é o menor planeta do sistema solar?\n',
+            'a) Saturno\n',
+            'b) Terra\n',
+            'c) Júpiter\n',
+            'd) Mercúrio')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'd':
+                resposta_certa_médio+=1
+                print(f'\n✅ CORRETO! +20 pontos\nPontuação atual: {resposta_certa_médio*20} pontos.\n')
+            else:
+                resposta_errada_médio+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 4/10\nEm que ano ocorreu a Revolução Francesa?\n',
+            'a) 1492\n',
+            'b) 1789\n',
+            'c) 1815\n',
+            'd) 1914')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'b':
+                resposta_certa_médio+=1
+                print(f'\n✅ CORRETO! +20 pontos\nPontuação atual: {resposta_certa_médio*20} pontos.\n')
+            else:
+                resposta_errada_médio+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 5/10\nQual é a capital do Canadá?\n',
+            'a) Toronto\n',
+            'b) Vancouver\n',
+            'c) Montreal\n',
+            'd) Ottawa')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'd':
+                resposta_certa_médio+=1
+                print(f'\n✅ CORRETO! +20 pontos\nPontuação atual: {resposta_certa_médio*20} pontos.\n')
+            else:
+                resposta_errada_médio+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 6/10\nQuem foi o primeiro homem a pisar na Lua?\n',
+            'a) Yuri Gagarin\n',
+            'b) Buzz Aldrin\n',
+            'c) Neil Armstrong\n',
+            'd) Alan Shepard')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'c':
+                resposta_certa_médio+=1
+                print(f'\n✅ CORRETO! +20 pontos\nPontuação atual: {resposta_certa_médio*20} pontos.\n')
+            else:
+                resposta_errada_médio+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 7/10\nQual é o idioma oficial da Suíça?\n',
+            'a) Alemão\n',
+            'b) Francês\n',
+            'c) Italiano\n',
+            'd) Todas as alternativas')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'd':
+                resposta_certa_médio+=1
+                print(f'\n✅ CORRETO! +20 pontos\nPontuação atual: {resposta_certa_médio*20} pontos.\n')
+            else:
+                resposta_errada_médio+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 8/10\nQual é o nome do processo de transformação da água em vapor?\n',
+            'a) Evaporação\n',
+            'b) Sublimação\n',
+            'c) Condensação\n',
+            'd) Fusão')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'a':
+                resposta_certa_médio+=1
+                print(f'\n✅ CORRETO! +20 pontos\nPontuação atual: {resposta_certa_médio*20} pontos.\n')
+            else:
+                resposta_errada_médio+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 9/10\nQual é a moeda oficial do Japão?\n',
+            'a) Yuan\n',
+            'b) Iene\n',
+            'c) Won\n',
+            'd) Dólar')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'b':
+                resposta_certa_médio+=1
+                print(f'\n✅ CORRETO! +20 pontos\nPontuação atual: {resposta_certa_médio*20} pontos.\n')
+            else:
+                resposta_errada_médio+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 10/10\nQuem pintou o teto da Capela Sistina?\n',
+            'a) Michelangelo\n',
+            'b) Leonardo da Vinci\n',
+            'c) Rafael\n',
+            'd) Donatello')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'a':
+                resposta_certa_médio+=1
+                print(f'\n✅ CORRETO! +20 pontos\nPontuação atual: {resposta_certa_médio*20} pontos.\n')
+            else:
+                resposta_errada_médio+=1
+                print(f'Erro! Sem pontuação\n')
+                print('...\n')
+            print('=='*30)
+            print('RESULTADO FINAL')
+            print('=='*30)
+            print(f'Nome: {nome}\n',
+            f'Acertos: {resposta_certa_médio}/10\n',
+            f'Erros: {resposta_errada_médio}/10\n',
+            f'Pontuação final: {resposta_certa_médio*20}')
+            if resposta_certa_médio*20==20:
+                print(f'Classificação:\033[93m★\033[10m Transição\n')
+            elif resposta_certa_médio*20==40:
+                print(f'Classificação:\033[93m🌟\033[20m Insuficiente')
+            elif resposta_certa_médio*20==60:
+                print(f'Classificação:\033[93m🌟★\033[30m Regular\n')
+            elif resposta_certa_médio*20==80:
+                print(f'Classificação:\033[93m🌟🌟\033[40m Mediano\n')
+            elif resposta_certa_médio*20==100:
+                print(f'Classificação:\033[93m🌟🌟★\033[50m Bom\n')
+            elif resposta_certa_médio*20==120:
+                print(f'Classificação:\033[93m🌟🌟🌟\033[60m Muito Bom\n')
+            elif resposta_certa_médio*20==140:
+                print(f'Classificação:\033[93m🌟🌟🌟★\033[70m Ótimo\n')
+            elif resposta_certa_médio*20==160:
+                print(f'Classificação:\033[93m🌟🌟🌟🌟\033[80m Excelente\n')
+            elif resposta_certa_médio*20==180:
+                print(f'Classificação:\033[93m🌟🌟🌟🌟★\033[90m Elite\n')
+            elif resposta_certa_médio*20==200:
+                print(f'Classificação:\033[93m🌟🌟🌟🌟🌟\033[77m Mestre\n')
+            else:
+                print('Classificação: Sem estrela 😋 Estude mais\n')
+                
+        elif escolha_de_jogo==3:# Difícil ronda1
+            print('=='*30)
+            print(f'{'MODO DIFÍCIL - 10 PERGUNTAS':^30}')
+            print('=='*30)
+            
+            print('PERGUNTA 1/10\nQual é o nome do tratado que encerrou oficialmente a Primeira Guerra Mundial?\n',
+            'a) Tratado de Viena\n',
+            'b) Tratado de Tordesilhas\n',
+            'c) Tratado de Versalhes\n',
+            'd) Tratado de Paris')
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'c':
+                resposta_certa_difícil+=1
+                print(f'\n✅ CORRETO! +30 pontos\nPontuação atual: {resposta_certa_difícil*30} pontos.\n')
+            else:
+                resposta_errada_difícil+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 2/10\nQuem foi o matemático que formulou o último teorema que só foi provado em 1994?\n',
+            'a) Isaac Newton\n',
+            'b) Pierre de Fermat\n',
+            'c) Carl Gauss\n',
+            'd) René Descartes')
+            
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'b':
+                resposta_certa_difícil+=1
+                print(f'\n✅ CORRETO! +30 pontos\nPontuação atual: {resposta_certa_difícil*30} pontos.\n')
+            else:
+                resposta_errada_difícil+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 3/10\nQual é o nome da partícula subatômica responsável pela força nuclear forte?\n',
+            'a) Elétron\n',
+            'b) Glúon\n',
+            'c) Neutrino\n',
+            'd) Quark')
+            
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'b':
+                resposta_certa_difícil+=1
+                print(f'\n✅ CORRETO! +30 pontos\nPontuação atual: {resposta_certa_difícil*30} pontos.\n')
+            else:
+                resposta_errada_difícil+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 4/10\nQual país tem a maior reserva comprovada de petróleo do mundo?\n',
+            'a) Arábia Saudita\n',
+            'b) Canadá\n',
+            'c) Irã\n',
+            'd) Venezuela')
+            
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'd':
+                resposta_certa_difícil+=1
+                print(f'\n✅ CORRETO! +30 pontos\nPontuação atual: {resposta_certa_difícil*30} pontos.\n')
+            else:
+                resposta_errada_difícil+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 5/10\nQuem compôs a ópera "O Barbeiro de Sevilha"?\n',
+            'a) Rossini\n',
+            'b) Verdi\n',
+            'c) Mozart\n',
+            'd) Beethoven')
+            
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'a':
+                resposta_certa_difícil+=1
+                print(f'\n✅ CORRETO! +30 pontos\nPontuação atual: {resposta_certa_difícil*30} pontos.\n')
+            else:
+                resposta_errada_difícil+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 6/10\nQual é o nome da teoria que unifica a relatividade geral com a mecânica quântica?\n',
+            'a) Teoria das Cordas\n',
+            'b) Teoria do Caos\n',
+            'c) Teoria da Relatividade Restrita\n',
+            'd) Teoria da Evolução')
+            
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'a':
+                resposta_certa_difícil+=1
+                print(f'\n✅ CORRETO! +30 pontos\nPontuação atual: {resposta_certa_difícil*30} pontos.\n')
+            else:
+                resposta_errada_difícil+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 7/10\nQual é a capital do Cazaquistão?\n',
+            'a) Almaty\n',
+            'b) Astana\n',
+            'c) Tashkent\n',
+            'd) Baku')
+            
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'b':
+                resposta_certa_difícil+=1
+                print(f'\n✅ CORRETO! +30 pontos\nPontuação atual: {resposta_certa_difícil*30} pontos.\n')
+            else:
+                resposta_errada_difícil+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 8/10\nQual filósofo escreveu "Crítica da Razão Pura"?\n',
+            'a) Kant\n',
+            'b) Hegel\n',
+            'c) Nietzsche\n',
+            'd) Rousseau')
+            
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'a':
+                resposta_certa_difícil+=1
+                print(f'\n✅ CORRETO! +30 pontos\nPontuação atual: {resposta_certa_difícil*30} pontos.\n')
+            else:
+                resposta_errada_difícil+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 9/10\nQual é o nome da missão espacial que levou o primeiro robô a pousar em Marte?\n',
+            'a) Curiosity\n',
+            'b) Opportunity\n',
+            'c) Sojourner\n',
+            'd) Spirit')
+            
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'c':
+                resposta_certa_difícil+=1
+                print(f'\n✅ CORRETO! +30 pontos\nPontuação atual: {resposta_certa_difícil*30} pontos.\n')
+            else:
+                resposta_errada_difícil+=1
+                print(f'\nErro! Sem pontuação\n')
+
+            print('PERGUNTA 10/10\nQual é o nome da estrutura cerebral associada à formação de memórias?\n',
+            'a) Hipocampo\n',
+            'b) Amígdala\n',
+            'c) Hipotálamo\n',
+            'd) Tálamo')
+            
+            resposta=str(input('Sua resposta: ')).strip().lower()
+            if resposta == 'a':
+                resposta_certa_difícil+=1
+                print(f'\n✅ CORRETO! +30 pontos\nPontuação atual: {resposta_certa_difícil*30} pontos.\n')
+            else:
+                resposta_errada_difícil+=1
+                print(f'\nErro! Sem pontuação\n')
+            print('...\n')
+            print('=='*30,'\n')
+            print('RESULTADO FINAL')
+            print('=='*30)
+            print(f'Nome: {nome}\n',
+            f'Acertos: {resposta_certa_difícil}/10\n',
+            f'Erros: {resposta_errada_difícil}/10\n',
+            f'Pontuação final: {resposta_certa_difícil*30}')
+            if resposta_certa_difícil*30==30:
+                print(f'Classificação:\033[93m★\033[56m Avançado\n')
+            elif resposta_certa_difícil*30==60:
+                print(f'Classificação:\033[93m🌟\033[13m Fraco')
+            elif resposta_certa_difícil*30==90:
+                print(f'Classificação:\033[93m🌟★\033[90m Regular\n')
+            elif resposta_certa_difícil*30==120:
+                print(f'Classificação:\033[93m🌟🌟\033[80m Bom\n')
+            elif resposta_certa_difícil*30==150:
+                print(f'Classificação:\033[93m🌟🌟★\033[70m Muito Bom\n')
+            elif resposta_certa_difícil*30==180:
+                print(f'Classificação:\033[93m🌟🌟🌟\033[60m Ótimo\n')
+            elif resposta_certa_difícil*30==210:
+                print(f'Classificação:\033[93m🌟🌟🌟★\033[50m Excelente\n')
+            elif resposta_certa_difícil*30==240:
+                print(f'Classificação:\033[93m🌟🌟🌟🌟\033[40m Elite\n')
+            elif resposta_certa_difícil*30==270:
+                print(f'Classificação:\033[93m🌟🌟🌟🌟★\033[30m Mestre\n')
+            elif resposta_certa_difícil*30==300:
+                print(f'Classificação:\033[93m🌟🌟🌟🌟🌟\033[20m Lendário 🏆\n')
+            else:
+                print('Classificação: Sem estrela 😋 Estude mais\n')
+        continuar=str(input('Quer continuar[s/n]: ')).lower().strip()
+        print('=='*30)
+        if continuar=='s':
+            resposta_certa_fácil=resposta_errada_fácil=resposta_certa_médio=resposta_errada_médio=resposta_certa_difícil=resposta_errada_difícil=0
+        else:
+            print('\nObrigado por jogar! Até a próxima! 🎮')
+            break 
+    else:
+        print('Obrigado, volte quando quiser!')
+        break       
+print('=='*30)
+     
+    
