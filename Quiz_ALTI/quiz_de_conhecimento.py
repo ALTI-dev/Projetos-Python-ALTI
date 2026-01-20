@@ -44,9 +44,9 @@ while True:
                 resposta_errada_fácil+=1
                 print(f'\nErro! Sem pontuação\n')
                 
-            print('PERGUNTA 3/10\nQuanto é raiz cúbica de dois (∛2)?\n',
+            print('PERGUNTA 3/10\nQuanto é raiz cúbica de dois (∛8)?\n',
             'a) 6\n',
-            'b) 8\n',
+            'b) 2\n',
             'c) 3+2\n',
             'd) 5')
             resposta=str(input('Sua resposta: ')).strip().lower()
