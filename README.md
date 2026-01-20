@@ -8,6 +8,10 @@ Repositório com projetos educacionais desenvolvidos durante o aprendizado de Py
 
 **Quiz interativo de conhecimentos gerais** com 3 níveis de dificuldade e sistema de classificação.
 
+![Jogadas](https://img.shields.io/badge/dynamic/json?url=https://api.countapi.xyz/get/alti-quiz/jogadas&label=Jogadas&query=value&color=green&style=flat-square)
+![Versão](https://img.shields.io/badge/Versão-1.0-blue?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python&style=flat-square)
+
 ###  Jogar Online
 [ **Jogar ALTI QUIZ** ](https://bit.ly/3LIJuW7)
 
@@ -49,6 +53,5 @@ Projeto educacional - Código aberto para fins de aprendizado.
 ---
 
 ###  Estatísticas
-![GitHub repo size](https://img.shields.io/github/repo-size/ALTI-dev/Projetos-Python-ALTI?color=blue)
-![GitHub last commit](https://img.shields.io/github/last-commit/ALTI-dev/Projetos-Python-ALTI?color=green)
-![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
+![GitHub repo size](https://img.shields.io/github/repo-size/ALTI-dev/Projetos-Python-ALTI?color=blue&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/ALTI-dev/Projetos-Python-ALTI?color=green&style=flat-square)
